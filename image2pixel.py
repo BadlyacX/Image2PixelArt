@@ -71,8 +71,6 @@ def convert_image_to_pixel_art(
 # ---------- ASCII 共同邏輯 ----------
 # 亮 → 暗（可自行微調字元表）
 ASCII_CHARS_DEFAULT = " .'`^,:;Il!i><~+_-?][}{1)(|\\/*tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
-# 也給你一個精簡版
-ASCII_CHARS_SIMPLE = " .:-=+*#%@"
 
 def to_luma(rgb):
     # 人眼感知加權（BT.709）
