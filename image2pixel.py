@@ -22,7 +22,7 @@ def load_image_normalized(image_path: str, background=(255, 255, 255)) -> Image.
         img = img.convert("RGB")
     return img
 
-# ---------- 像素畫輸出（保留你先前的功能） ----------
+# ---------- 像素畫輸出----------
 def convert_image_to_pixel_art(
     image_path: str,
     scale_factor: float = 0.1,
